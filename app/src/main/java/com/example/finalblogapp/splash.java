@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class SplashActivity extends AppCompatActivity {
+public class splash extends AppCompatActivity {
 
     private static final int SPLASH_TIMEOUT = 2000; // Splash screen timeout duration in milliseconds
 
@@ -19,7 +19,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 // Start the next activity after the timeout
-                Intent intent = new Intent(SplashActivity.this, WelcomeActivity.class);
+                Intent intent = new Intent(splash.this, WelcomeActivity.class);
                 startActivity(intent);
                 finish(); // Close the current activity
             }
