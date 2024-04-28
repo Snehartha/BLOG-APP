@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextText2" type="id">2</item>
+    <item name="button7" type="id">3</item>
+    <item name="editTextTextMultiLine" type="id">1</item>
+    <item name="button8" type="id">4</item>
+    <item name="editTextTextMultiLine2" type="id">5</item>
+    <item name="editTextText3" type="id">2</item>
+    <item name="button9" type="id">3</item>
+    <item name="button10" type="id">3</item>
+    <item name="button11" type="id">3</item>
+    <item name="imageButton" type="id">6</item>
+    <item name="textView13" type="id">4</item>
+    <item name="imageView" type="id">1</item>
+    <item name="imageView2" type="id">2</item>
+    <item name="imageView3" type="id">3</item>
+    <item name="imageView4" type="id">4</item>
+</resources>

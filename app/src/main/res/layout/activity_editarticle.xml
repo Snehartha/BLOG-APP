@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".editarticle"
+    tools:ignore="ExtraText">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_9"/>
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-38dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="39dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="326dp"
+        android:layout_height="34dp"
+        android:text="Edit Your Blog here"
+        android:textColor="@color/light_blue"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="106dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/love_ya_like_a_sister"
+        android:text="Blog Title"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="221dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="560dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/love_ya_like_a_sister"
+        android:text="Blog Descrition"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="357dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Blog"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="575dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="356dp"
+        android:layout_height="87dp"
+        android:text="Please Start Writing Better Git Commits"
+        android:textColor="@color/light_blue"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="270dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:text="I recently read a helpful article on Hashnode by Simon Egersand titled 'Write Git Commit messages Your Colleagues Will Love,'and it inspired me to dive a little deeer into understanding what makes a Git command good or bad"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="409dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".savedarticles">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_9"/>
+    <TextView
+
+        android:layout_width="105dp"
+        android:layout_height="66dp"
+        android:text="New bloggers"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="325dp"
+        tools:layout_editor_absoluteY="98dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="322dp"
+        android:layout_height="113dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Please start Writing Better Git Commits"
+        android:textColor="@color/light_blue"
+        android:textSize="26dp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="85dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="105dp"
+        android:layout_height="66dp"
+        android:text="New bloggers"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="325dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="27 april 2024"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="153dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="217dp"
+        android:layout_height="41dp"
+        android:text="Read more"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="359dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="392dp"
+        android:layout_height="144dp"
+        android:text="I recently read a helpful article on Hashnode by Simon Egersand titled 'Write Git Commit messages Your Colleagues Will Love,'and it inspired me to dive a little deeer into understanding what makes a Git command good or bad"
+        android:textSize="19dp"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="198dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="306dp"
+        android:layout_height="83dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="About criticism"
+        android:textColor="@color/light_blue"
+        android:textSize="26dp"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="454dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:text="Arya blogger"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="325dp"
+        tools:layout_editor_absoluteY="444dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="1 april 2024"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="492dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="223dp"
+        android:layout_height="50dp"
+        android:text="Read more"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="714dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="11dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="397dp"
+        android:layout_height="157dp"
+        android:text="Everybody is a critic. Every developer has both been on the receiveig and the giving end of critisicm. It is a vital part of our job,be it as code review, comments on social networks like this one or during a rectrospective. So let us have a look at both sides of criticism!"
+        android:textSize="19dp"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="548dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/img_6"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="359dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/img_8"
+        tools:layout_editor_absoluteX="329dp"
+        tools:layout_editor_absoluteY="359dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="59dp"
+        android:layout_height="44dp"
+        app:srcCompat="@drawable/img_7"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="717dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="43dp"
+        android:layout_height="44dp"
+        app:srcCompat="@drawable/img_8"
+        tools:layout_editor_absoluteX="352dp"
+        tools:layout_editor_absoluteY="717dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
