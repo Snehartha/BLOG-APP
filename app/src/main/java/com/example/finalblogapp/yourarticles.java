@@ -8,7 +8,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class YourArticlesActivity extends AppCompatActivity {
+public class yourarticles extends AppCompatActivity {
 
     private TextView textViewTitle1, textViewTitle2, textViewContent1, textViewContent2;
     private EditText editTextDate1, editTextDate2;
